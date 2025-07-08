@@ -1,0 +1,350 @@
+{
+    "ResultState": true,
+    "ResultCode": 1200,
+    "ResultDesc": "Operation Was Successful",
+    "ResponseData": [
+        {
+            "ImpactMeasure": "Financial Risk",
+            "allData": [
+                {
+                    "id": 1,
+                    "ImpactMeasure": "Financial Risk",
+                    "Fundamental": "Funding gap  of  >15%",
+                    "Major": "Funding gap  of  10-15%",
+                    "Moderate": "Funding gap  of  5-10%",
+                    "Minor": "Funding gap  of  1-5%",
+                    "Insignificant": "Funding gap  of less  1%",
+                    "created_at": "2022-09-30T06:46:41.000000Z",
+                    "updated_at": "2022-09-30T06:46:41.000000Z"
+                },
+                {
+                    "id": 2,
+                    "ImpactMeasure": "Financial Risk",
+                    "Fundamental": "Financial Loss of over KShs 5Mn ",
+                    "Major": "Financial Loss of KShs 2M-5M ",
+                    "Moderate": "Financial Loss of KShs 1M -2M",
+                    "Minor": "Financial Loss of KShs 500K - 1M",
+                    "Insignificant": "Financial Loss of less than KShs500K",
+                    "created_at": "2022-09-30T06:46:41.000000Z",
+                    "updated_at": "2022-09-30T06:46:41.000000Z"
+                },
+                {
+                    "id": 3,
+                    "ImpactMeasure": "Financial Risk",
+                    "Fundamental": "Budget variance of over 20%",
+                    "Major": "Budget variance of 10-20%",
+                    "Moderate": "Budget variance of 5-10%",
+                    "Minor": "Budget variance of 3-5%",
+                    "Insignificant": "Budget variance of less than 3%",
+                    "created_at": "2022-09-30T06:46:41.000000Z",
+                    "updated_at": "2022-09-30T06:46:41.000000Z"
+                },
+                {
+                    "id": 4,
+                    "ImpactMeasure": "Financial Risk",
+                    "Fundamental": "ALL fraud case",
+                    "Major": null,
+                    "Moderate": null,
+                    "Minor": null,
+                    "Insignificant": null,
+                    "created_at": "2022-09-30T06:46:41.000000Z",
+                    "updated_at": "2022-09-30T06:46:41.000000Z"
+                }
+            ]
+        },
+        {
+            "ImpactMeasure": "Construction\/Roads Project Risk",
+            "allData": [
+                {
+                    "id": 5,
+                    "ImpactMeasure": "Construction\/Roads Project Risk",
+                    "Fundamental": "Zero KMs of new roads constructed",
+                    "Major": "20% of new roads constructed against expected annual projections",
+                    "Moderate": "30% of new roads constructed against expected annual projections",
+                    "Minor": "40% of new roads constructed against expected annual projections",
+                    "Insignificant": ">50% of new roads constructed against expected annual projections",
+                    "created_at": "2022-09-30T06:46:41.000000Z",
+                    "updated_at": "2022-09-30T06:46:41.000000Z"
+                },
+                {
+                    "id": 6,
+                    "ImpactMeasure": "Construction\/Roads Project Risk",
+                    "Fundamental": "Level of roads degraded\/damaged: Road completely cutoff, no traffic flow",
+                    "Major": "Level of roads degraded\/damaged: Road is usable but there are major snarl ups causing inconveniences to the users\/diversions to avoid the problem",
+                    "Moderate": "Level of roads degraded\/damaged: Road is usable but causes slow but movable traffic flow",
+                    "Minor": "Level of roads degraded\/damaged: minor noticeable damages",
+                    "Insignificant": "Level of roads degraded\/damaged: unnoticeable damages",
+                    "created_at": "2022-09-30T06:46:41.000000Z",
+                    "updated_at": "2022-09-30T06:46:41.000000Z"
+                },
+                {
+                    "id": 7,
+                    "ImpactMeasure": "Construction\/Roads Project Risk",
+                    "Fundamental": "Traffic congestion  (includes vehicle number per hour & vehicle speed) - deviation from the expected traffic flow \/ capacity: >50%",
+                    "Major": "Traffic congestion  (includes vehicle number per hour & vehicle speed) - deviation from the expected traffic flow \/ capacity: 60%",
+                    "Moderate": "Traffic congestion  (includes vehicle number per hour & vehicle speed) - deviation from the expected traffic flow \/ capacity: 70%",
+                    "Minor": "Traffic congestion  (includes vehicle number per hour & vehicle speed) - deviation from the expected traffic flow \/ capacity: 80%",
+                    "Insignificant": "Traffic congestion  (includes vehicle number per hour & vehicle speed) - deviation from the expected traffic flow \/ capacity: 90%",
+                    "created_at": "2022-09-30T06:46:41.000000Z",
+                    "updated_at": "2022-09-30T06:46:41.000000Z"
+                },
+                {
+                    "id": 8,
+                    "ImpactMeasure": "Construction\/Roads Project Risk",
+                    "Fundamental": "Loss of life",
+                    "Major": "Permanent disability",
+                    "Moderate": "Minorinjury",
+                    "Minor": null,
+                    "Insignificant": null,
+                    "created_at": "2022-09-30T06:46:41.000000Z",
+                    "updated_at": "2022-09-30T06:46:41.000000Z"
+                }
+            ]
+        },
+        {
+            "ImpactMeasure": "Projects Implementation",
+            "allData": [
+                {
+                    "id": 9,
+                    "ImpactMeasure": "Projects Implementation",
+                    "Fundamental": "Quality: Project end output is effectively useless",
+                    "Major": "Quality: Substantial part of objective not met for quality reasons",
+                    "Moderate": "Quality: Objective achieved but quality diminished substantially",
+                    "Minor": "Quality: Objective achieved but quality diminished slightly",
+                    "Insignificant": "Quality: Negligible quality issues with no effect on objective",
+                    "created_at": "2022-09-30T06:46:41.000000Z",
+                    "updated_at": "2022-09-30T06:46:41.000000Z"
+                },
+                {
+                    "id": 10,
+                    "ImpactMeasure": "Projects Implementation",
+                    "Fundamental": "Time delays:  >50% ",
+                    "Major": "Time delays: 40% ",
+                    "Moderate": "Time delays:  30% ",
+                    "Minor": "Time delays:  >20% ",
+                    "Insignificant": "Time delays:  <10% ",
+                    "created_at": "2022-09-30T06:46:41.000000Z",
+                    "updated_at": "2022-09-30T06:46:41.000000Z"
+                },
+                {
+                    "id": 11,
+                    "ImpactMeasure": "Projects Implementation",
+                    "Fundamental": "Cost: Over 15% cost variation",
+                    "Major": "Cost: 10% cost variation",
+                    "Moderate": "Cost: 5% cost variation",
+                    "Minor": "Cost:  1% cost variation",
+                    "Insignificant": "Cost:  <1% cost variation",
+                    "created_at": "2022-09-30T06:46:41.000000Z",
+                    "updated_at": "2022-09-30T06:46:41.000000Z"
+                }
+            ]
+        },
+        {
+            "ImpactMeasure": "Human Capital (HR); OHS",
+            "allData": [
+                {
+                    "id": 12,
+                    "ImpactMeasure": "Human Capital (HR); OHS",
+                    "Fundamental": "Unplanned loss of 4 key senior personnel",
+                    "Major": "Unplanned loss of 3 key senior personnel",
+                    "Moderate": "Unplanned loss of 2 key senior personnel",
+                    "Minor": "Unplanned loss of 1 key senior personnel",
+                    "Insignificant": "Unplanned loss of 0 key senior personnel",
+                    "created_at": "2022-09-30T06:46:41.000000Z",
+                    "updated_at": "2022-09-30T06:46:41.000000Z"
+                },
+                {
+                    "id": 13,
+                    "ImpactMeasure": "Human Capital (HR); OHS",
+                    "Fundamental": "Any Loss of life or permanent total disability  by staff performing organisation duty",
+                    "Major": null,
+                    "Moderate": null,
+                    "Minor": null,
+                    "Insignificant": null,
+                    "created_at": "2022-09-30T06:46:41.000000Z",
+                    "updated_at": "2022-09-30T06:46:41.000000Z"
+                },
+                {
+                    "id": 14,
+                    "ImpactMeasure": "Human Capital (HR); OHS",
+                    "Fundamental": "Unexpected concurrent staff turnover of  >5%",
+                    "Major": "Unexpected concurrent staff turnover of 4%",
+                    "Moderate": "Unexpected concurrent staff turnover of 3%",
+                    "Minor": "Unexpected concurrent staff turnover of 2%",
+                    "Insignificant": "Unexpected concurrent staff turnover of <1%",
+                    "created_at": "2022-09-30T06:46:41.000000Z",
+                    "updated_at": "2022-09-30T06:46:41.000000Z"
+                },
+                {
+                    "id": 15,
+                    "ImpactMeasure": "Human Capital (HR); OHS",
+                    "Fundamental": ">20% staff complaints",
+                    "Major": "10% staff complaints",
+                    "Moderate": "5% staff complaints",
+                    "Minor": "1% staff complaints",
+                    "Insignificant": "<1% staff complaints",
+                    "created_at": "2022-09-30T06:46:41.000000Z",
+                    "updated_at": "2022-09-30T06:46:41.000000Z"
+                },
+                {
+                    "id": 16,
+                    "ImpactMeasure": "Human Capital (HR); OHS",
+                    "Fundamental": "Staff productivity of <50%",
+                    "Major": "Staff productivity of 60%",
+                    "Moderate": "Staff productivity of 70%",
+                    "Minor": "Staff productivity of 80%",
+                    "Insignificant": "Staff productivity of 90%",
+                    "created_at": "2022-09-30T06:46:41.000000Z",
+                    "updated_at": "2022-09-30T06:46:41.000000Z"
+                }
+            ]
+        },
+        {
+            "ImpactMeasure": "Reputation & Corporate Image",
+            "allData": [
+                {
+                    "id": 17,
+                    "ImpactMeasure": "Reputation & Corporate Image",
+                    "Fundamental": "All adverse media coverage",
+                    "Major": null,
+                    "Moderate": null,
+                    "Minor": null,
+                    "Insignificant": null,
+                    "created_at": "2022-09-30T06:46:41.000000Z",
+                    "updated_at": "2022-09-30T06:46:41.000000Z"
+                },
+                {
+                    "id": 18,
+                    "ImpactMeasure": "Reputation & Corporate Image",
+                    "Fundamental": "Strength of adverse media coverage: Issues of corruption, malpractices,",
+                    "Major": "Strength of adverse media coverage (e.g.  front page etc) ",
+                    "Moderate": "Strength of adverse media coverage: issues of matters directly relating to our mandate e.g status of road",
+                    "Minor": "Strength of adverse media coverage: reporting on road accidents",
+                    "Insignificant": "Strength of adverse media coverage: rumours",
+                    "created_at": "2022-09-30T06:46:41.000000Z",
+                    "updated_at": "2022-09-30T06:46:41.000000Z"
+                },
+                {
+                    "id": 19,
+                    "ImpactMeasure": "Reputation & Corporate Image",
+                    "Fundamental": "Length of time in media 3 days and above",
+                    "Major": "Length of time in media 2 days",
+                    "Moderate": "Length of time in media 1 day",
+                    "Minor": "Length of time in media all media",
+                    "Insignificant": "Length of time in media: one off event",
+                    "created_at": "2022-09-30T06:46:41.000000Z",
+                    "updated_at": "2022-09-30T06:46:41.000000Z"
+                },
+                {
+                    "id": 20,
+                    "ImpactMeasure": "Reputation & Corporate Image",
+                    "Fundamental": "Stakeholder satisfaction index of 60% and below",
+                    "Major": "Stakeholder satisfaction index of 70%",
+                    "Moderate": "Stakeholder satisfaction index of 80%",
+                    "Minor": "Stakeholder satisfaction index of 90%",
+                    "Insignificant": "Stakeholder satisfaction index of >90%",
+                    "created_at": "2022-09-30T06:46:41.000000Z",
+                    "updated_at": "2022-09-30T06:46:41.000000Z"
+                },
+                {
+                    "id": 21,
+                    "ImpactMeasure": "Reputation & Corporate Image",
+                    "Fundamental": null,
+                    "Major": "Non-compliance with service charter",
+                    "Moderate": null,
+                    "Minor": null,
+                    "Insignificant": null,
+                    "created_at": "2022-09-30T06:46:41.000000Z",
+                    "updated_at": "2022-09-30T06:46:41.000000Z"
+                }
+            ]
+        },
+        {
+            "ImpactMeasure": "Compliance, Governance & Legal",
+            "allData": [
+                {
+                    "id": 22,
+                    "ImpactMeasure": "Compliance, Governance & Legal",
+                    "Fundamental": "Legal costs of above KShs 10 Million",
+                    "Major": "Legal costs of KShs 5Mn",
+                    "Moderate": "Legal costs of KShs 3Mn",
+                    "Minor": "Legal costs of KShs 1Mn",
+                    "Insignificant": "Legal costs of KShs < 500K",
+                    "created_at": "2022-09-30T06:46:41.000000Z",
+                    "updated_at": "2022-09-30T06:46:41.000000Z"
+                },
+                {
+                    "id": 23,
+                    "ImpactMeasure": "Compliance, Governance & Legal",
+                    "Fundamental": "Labour Litigations against ZEBRATOP - >10",
+                    "Major": "Labour Litigations against ZEBRATOP - 8",
+                    "Moderate": "Labour Litigations against ZEBRATOP - 6",
+                    "Minor": "Labour Litigations against ZEBRATOP -4",
+                    "Insignificant": "Labour Litigations against ZEBRATOP - 2 ",
+                    "created_at": "2022-09-30T06:46:41.000000Z",
+                    "updated_at": "2022-09-30T06:46:41.000000Z"
+                },
+                {
+                    "id": 24,
+                    "ImpactMeasure": "Compliance, Governance & Legal",
+                    "Fundamental": "Road project Litigations against ZEBRATOP - >10",
+                    "Major": "Road Projects Litigations against ZEBRATOP - 8 cases",
+                    "Moderate": "Road Projects Litigations against ZEBRATOP - 6 cases",
+                    "Minor": "Road Projects Litigations against ZEBRATOP - 4 cases",
+                    "Insignificant": "Road Projects Litigations against ZEBRATOP - 2 cases",
+                    "created_at": "2022-09-30T06:46:41.000000Z",
+                    "updated_at": "2022-09-30T06:46:41.000000Z"
+                },
+                {
+                    "id": 25,
+                    "ImpactMeasure": "Compliance, Governance & Legal",
+                    "Fundamental": "All Fines and penalties for non-compliance",
+                    "Major": null,
+                    "Moderate": null,
+                    "Minor": null,
+                    "Insignificant": null,
+                    "created_at": "2022-09-30T06:46:41.000000Z",
+                    "updated_at": "2022-09-30T06:46:41.000000Z"
+                }
+            ]
+        },
+        {
+            "ImpactMeasure": "Security (Information and Physical Security)",
+            "allData": [
+                {
+                    "id": 26,
+                    "ImpactMeasure": "Security (Information and Physical Security)",
+                    "Fundamental": "Core processes outage\/downtime of 3 hours and above ",
+                    "Major": "Core processes outage\/downtime of 2 hours",
+                    "Moderate": "Core processes outage\/downtime of 1 hours",
+                    "Minor": "Core processes outage\/downtime of 30 minutes",
+                    "Insignificant": "Core processes outage\/downtime of <30 minutes",
+                    "created_at": "2022-09-30T06:46:41.000000Z",
+                    "updated_at": "2022-09-30T06:46:41.000000Z"
+                },
+                {
+                    "id": 27,
+                    "ImpactMeasure": "Security (Information and Physical Security)",
+                    "Fundamental": "Non-core processes outage\/downtime of 8 hours and above",
+                    "Major": "Non-core processes outage\/downtime of 6 hours",
+                    "Moderate": "Non-core processes outage\/downtime of 4 hours",
+                    "Minor": "Non-core processes outage\/downtime of 2 hours",
+                    "Insignificant": "Non-core processes outage\/downtime of 1 hours",
+                    "created_at": "2022-09-30T06:46:41.000000Z",
+                    "updated_at": "2022-09-30T06:46:41.000000Z"
+                },
+                {
+                    "id": 28,
+                    "ImpactMeasure": "Security (Information and Physical Security)",
+                    "Fundamental": "1 security breaches",
+                    "Major": null,
+                    "Moderate": null,
+                    "Minor": null,
+                    "Insignificant": "Zero security breaches",
+                    "created_at": "2022-09-30T06:46:41.000000Z",
+                    "updated_at": "2022-09-30T06:46:41.000000Z"
+                }
+            ]
+        }
+    ]
+}

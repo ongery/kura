@@ -1,0 +1,164 @@
+{
+    "ResultState": true,
+    "ResultCode": 1200,
+    "ResultDesc": "Operation Was Successful",
+    "ResponseData": [
+        {
+            "id": 2,
+            "ObjType": null,
+            "parent_id": null,
+            "Name": "HR Department",
+            "Acronym": "HR",
+            "Manager": 2,
+            "UserSign1": null,
+            "UserSign2": null,
+            "UserSign3": null,
+            "created_at": "2022-09-30T06:47:43.000000Z",
+            "updated_at": "2022-09-30T06:47:43.000000Z",
+            "actionData": [
+                {
+                    "RiskName": "Inadequate staffing",
+                    "TreatmentPlan": "lobby for more funds",
+                    "Category": "RISK ANALYSIS ACTION",
+                    "Ranking": "HIGH",
+                    "Status": "Completed",
+                    "color": "bg-success"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "ObjType": null,
+            "parent_id": null,
+            "Name": "ERM",
+            "Acronym": "ERM",
+            "Manager": null,
+            "UserSign1": null,
+            "UserSign2": null,
+            "UserSign3": null,
+            "created_at": "2022-10-18T10:30:54.000000Z",
+            "updated_at": "2022-10-18T10:30:54.000000Z",
+            "actionData": [
+                {
+                    "RiskName": "Poor risk culture within Smartedge",
+                    "TreatmentPlan": "Carry out capacity building activities for the Risk champions",
+                    "Category": "RISK ANALYSIS ACTION",
+                    "Ranking": "MEDIUM",
+                    "Status": "Not Started (Not Due)",
+                    "color": "bg-blue"
+                },
+                {
+                    "RiskName": "Inadequate project risk management",
+                    "TreatmentPlan": "Development of Project Risk management  framework aligned to ERM Framework ",
+                    "Category": "RISK ANALYSIS ACTION",
+                    "Ranking": "MEDIUM",
+                    "Status": "Not Started (Not Due)",
+                    "color": "bg-blue"
+                },
+                {
+                    "RiskName": "Non compliance to risk appetite statement and tolerance levels",
+                    "TreatmentPlan": "Review the Risk appetite statement ",
+                    "Category": "RISK ANALYSIS ACTION",
+                    "Ranking": "MEDIUM",
+                    "Status": "Not Started (Not Due)",
+                    "color": "bg-blue"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "ObjType": null,
+            "parent_id": null,
+            "Name": "ICT",
+            "Acronym": "ICT",
+            "Manager": null,
+            "UserSign1": null,
+            "UserSign2": null,
+            "UserSign3": null,
+            "created_at": "2022-10-18T10:30:56.000000Z",
+            "updated_at": "2022-10-18T10:30:56.000000Z",
+            "actionData": [
+                {
+                    "RiskName": "Ineffecient ICT help desk",
+                    "TreatmentPlan": "Upgrade the helpdesk sytem ",
+                    "Category": "RISK ANALYSIS ACTION",
+                    "Ranking": "MEDIUM",
+                    "Status": "Not Started (Not Due)",
+                    "color": "bg-blue"
+                },
+                {
+                    "RiskName": "System downtime",
+                    "TreatmentPlan": "network monitoring system",
+                    "Category": "RISK ANALYSIS ACTION",
+                    "Ranking": "MEDIUM",
+                    "Status": "Not Started (Not Due)",
+                    "color": "bg-blue"
+                },
+                {
+                    "RiskName": "Cyber Security threats e.g hacking, phishing attacks, email spoofing, ransomware and malware",
+                    "TreatmentPlan": "implement a systems monitoring application",
+                    "Category": "RISK ANALYSIS ACTION",
+                    "Ranking": "MEDIUM",
+                    "Status": "Not Started (Not Due)",
+                    "color": "bg-blue"
+                },
+                {
+                    "RiskName": "Use of Obsolete  technology",
+                    "TreatmentPlan": "develop an ICT strategy",
+                    "Category": "RISK ANALYSIS ACTION",
+                    "Ranking": "MEDIUM",
+                    "Status": "Not Started (Not Due)",
+                    "color": "bg-blue"
+                },
+                {
+                    "RiskName": "Ineffecient ICT help desk",
+                    "TreatmentPlan": "Upgrade the helpdesk sytem",
+                    "Category": "RISK ANALYSIS ACTION",
+                    "Ranking": "MEDIUM",
+                    "Status": "WIP (On Course)",
+                    "color": "bg-yellow"
+                },
+                {
+                    "RiskName": "System downtime",
+                    "TreatmentPlan": "network monitoring system",
+                    "Category": "RISK ANALYSIS ACTION",
+                    "Ranking": "MEDIUM",
+                    "Status": "Completed",
+                    "color": "bg-success"
+                },
+                {
+                    "RiskName": "Cyber Security threats e.g hacking, phishing attacks, email spoofing, ransomware and malware",
+                    "TreatmentPlan": "implement a systems monitoring application",
+                    "Category": "RISK ANALYSIS ACTION",
+                    "Ranking": "MEDIUM",
+                    "Status": "Not Started (Not Due)",
+                    "color": "bg-blue"
+                },
+                {
+                    "RiskName": "Use of Obsolete  technology",
+                    "TreatmentPlan": "develop an ICT strategy",
+                    "Category": "RISK ANALYSIS ACTION",
+                    "Ranking": "MEDIUM",
+                    "Status": "WIP (On Course)",
+                    "color": "bg-yellow"
+                },
+                {
+                    "RiskName": "Ineffecient ICT help desk",
+                    "TreatmentPlan": "Upgrade the helpdesk sytem",
+                    "Category": "RISK ANALYSIS ACTION",
+                    "Ranking": "MEDIUM",
+                    "Status": "WIP (On Course)",
+                    "color": "bg-yellow"
+                },
+                {
+                    "RiskName": "Ineffecient ICT help desk",
+                    "TreatmentPlan": "Upgrade the helpdesk sytem",
+                    "Category": "RISK ANALYSIS ACTION",
+                    "Ranking": "MEDIUM",
+                    "Status": "Not Started (Not Due)",
+                    "color": "bg-blue"
+                }
+            ]
+        }
+    ]
+}

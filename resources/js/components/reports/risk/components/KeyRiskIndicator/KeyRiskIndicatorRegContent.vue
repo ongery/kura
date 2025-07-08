@@ -1,0 +1,160 @@
+<template>
+    <div>
+        <div class="card card-xl-stretch mb-5 mb-xl-12">
+            <div class="card-header border-0 pt-5">
+                <div class="col-md-6 fv-row">
+                    <form class="mb-10">
+                        <h3 class="card-title align-items-start flex-column">
+                            <span class="card-label fw-bold fs-3 mb-1"> Select Key Risk Indicators </span>
+                        </h3>
+
+                        <select class="form-control" v-model="selectedOption" @change="filterRiskRegister()" >
+                            <option value=""> -- </option>
+                            <option v-for="val in reports" :value="val.Name" :key="val.id">
+                                {{ val.Name }}
+                            </option>
+                        </select>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <div style="margin-left: -20px;" v-for="(mode1, outerIndex) in reports" :key="mode1.id">
+            <div class="card m-5" v-if="selectedOption === mode1.Name || selectedOption === ''">
+                <div class="card-body p-lg-15">
+                    <div class="d-flex flex-column flex-xl-row">
+                        <div class="flex-lg-row-fluid me-xl-15 mb-10 mb-xl-0">
+                            <div class="d-flex flex-stack flex-wrap mb-lg-10">
+                                <h1 class="text-gray-800 text-hover-success fw-bold" style="font-size: 16px;">{{ mode1.Name }}</h1>
+                            </div>
+                            
+                            <div class="mb-0">
+                                <div v-for="(mode, innerIndex) in mode1.riskRegisterData" :key="mode.id">
+                                    <div class="m-0 pl-5 pt-2">
+                                        <!-- <div class="d-flex align-items-center collapsible py-3 toggle active mb-0" data-bs-toggle="collapse" :data-bs-target="'#accordion_' + outerIndex + '_' + innerIndex"> -->
+                                            <div class="btn btn-sm btn-icon mw-20px btn-active-color-primary me-5 d-none">
+                                                <span class="svg-icon toggle-on svg-icon-primary svg-icon-1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                        <rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="black" />
+                                                        <rect x="6.0104" y="10.9247" width="12" height="2" rx="1" fill="black" />
+                                                    </svg>
+                                                </span>
+                                                <span class="svg-icon toggle-off svg-icon-1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                        <rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="black" />
+                                                        <rect x="10.8891" y="17.8033" width="12" height="2" rx="1" transform="rotate(-90 10.8891 17.8033)" fill="black" />
+                                                        <rect x="6.01041" y="10.9247" width="12" height="2" rx="1" fill="black" />
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                            <h5 class="custom-list-title fw-bold text-gray-700 mb-1">{{ mode.RiskName }}</h5>
+                                        <!-- </div> -->
+                                        
+                                        <div :id="'accordion_' + outerIndex + '_' + innerIndex" class="collapse show fs-6 ms-1">
+                                            <div class="table-responsive m-0 pt-5">
+                                                <div class="card">
+                                                    <div class="card-body table-responsive p-0">
+                                                        <table class="table table-hover  table-sm">
+                                                            <tbody>
+                                                                <tr class="thead-light">
+                                                                    <th>Risk Event</th>
+                                                                    <th style="text-align:center">R.R</th>
+                                                                    <th>KRI</th>
+                                                                    <th>Frequency</th>
+                                                                    <th>Responsibility</th>
+                                                                    <th>Value</th>
+                                                                    <th>Actions</th>
+                                                                    <th>Status</th>
+                                                                </tr>
+                                                                <tr v-for="mode in mode1.riskRegisterData" :key="mode.id">
+                                                                    <td>
+                                                                        {{ mode.RiskName }}
+                                                                    </td>
+
+                                                                    <td style="background-color:#ec0d0d" v-if="mode.ResidualValue >= 15">{{ mode.ResidualValue }}</td>
+
+                                                                    <td style="background-color:#ffbf00" v-else-if="mode.ResidualValue > 4">{{ mode.ResidualValue }}</td>
+
+                                                                    <td style="background-color:#09f17d" v-else-if="mode.ResidualValue > 0 && mode.ResidualValue <= 4">{{ mode.ResidualValue }}</td>
+
+                                                                    <td v-else>{{ mode.ResidualValue }}</td>
+                                                                    <td>
+                                                                        {{ mode.KRIitems }}
+                                                                    </td>
+
+                                                                    <td>
+                                                                        {{ mode.Frequency }}
+                                                                    </td>
+
+                                                                    <td>
+                                                                        {{ mode.Responsibility }}
+                                                                    </td>
+
+                                                                    <td
+                                                                        :class="{
+                                                                            'bg-success': mode.color === 'bg-success',
+                                                                            'bg-danger': mode.color === 'bg-danger',
+                                                                            'bg-warning': mode.color === 'bg-warning'
+                                                                        }"
+                                                                        style="text-align:center"
+                                                                    >
+                                                                        {{ mode.Value }}
+                                                                    </td>
+
+                                                                    <td>
+                                                                        {{ mode.actionName }}
+                                                                    </td>
+
+                                                                    <td
+                                                                        :class="{
+                                                                            'bg-success': mode.actionStatus === 'Completed',
+                                                                            'bg-blue': mode.actionStatus === 'Not Started (Not Due)',
+                                                                            'bg-danger': mode.actionStatus === 'Not Started (Overdue)',
+                                                                            'bg-yellow': mode.actionStatus === 'WIP (On Course)',
+                                                                            'bg-warning': mode.actionStatus === 'WIP (Overdue)',
+                                                                            'bg-gray': mode.actionStatus === 'Deffered'
+                                                                        }"
+                                                                        style="text-align:center"
+                                                                    >
+                                                                        {{ mode.actionStatus }}
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="separator separator-dashed"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
+
+<script>
+import OctagonInherentValue from '../items/OctagonInherentValue.vue'
+import OctagonResidualValue from '../items/OctagonResidualValue.vue'
+
+export default {
+    name: 'KeyRiskIndicatorRegContent',
+    props: ['reports'],
+    components: { OctagonInherentValue, OctagonResidualValue },
+
+    data() {
+        return {
+            selectedOption: ""
+        }
+    },
+    methods: {
+        filterRiskRegister(e) {
+            this.selectedOption = e.target.value;
+        }
+    }
+}
+</script>

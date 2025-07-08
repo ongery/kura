@@ -1,0 +1,13 @@
+{
+    "ResultState": true,
+    "ResultCode": 1200,
+    "ResultDesc": "Operation Was Successful",
+    "ResponseData": {
+        "totalRisks": 10,
+        "totalKRIs": 10,
+        "redKRIs": 0,
+        "amberKRIs": 1,
+        "greenKRIs": 0,
+        "unMeteredKRIs": 0
+    }
+}

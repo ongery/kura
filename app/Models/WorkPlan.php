@@ -1,0 +1,19 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class WorkPlan extends Model
+{
+    use HasFactory;
+
+    protected $guarded = ['id'];
+    protected $table = 'work_plans';
+
+    public function user()
+    {
+        return $this->belongsTo(User::class, 'UserSign');
+    }
+}

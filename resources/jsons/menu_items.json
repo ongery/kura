@@ -1,0 +1,47 @@
+[
+    {
+        "Icon": "fas fa-business-time",
+        "Label": "Risk Management",
+        "Visible": "Y",
+        "Link": null,
+        "Color": "yellow",
+        "Order": 1,
+        "children": []
+    },
+    {
+        "Icon": "fas fa-business-time",
+        "Label": "QMS",
+        "Visible": "Y",
+        "Link": null,
+        "Color": "purple",
+        "Order": 2,
+        "children": []
+    },
+    {
+        "Icon": "fas fa-business-time",
+        "Label": "ERM",
+        "Visible": "Y",
+        "Link": null,
+        "Color": "purple",
+        "Order": 3,
+        "children": []
+    },
+    {
+        "Icon": "fas fa-business-time",
+        "Label": "CRM",
+        "Visible": "Y",
+        "Link": null,
+        "Color": "purple",
+        "Order": 4,
+        "children": []
+    },
+    {
+        "Icon": "fas fa-business-time",
+        "Label": "STRATEGIC",
+        "Visible": "Y",
+        "Link": null,
+        "Color": "purple",
+        "Order": 5,
+        "children": []
+    }
+]

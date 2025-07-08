@@ -1,0 +1,284 @@
+[
+    {
+        "ObjType": 1,
+        "ObjectHeaderTable": "App\\Models\\OPOR",
+        "DocumentName": "Risk Cause Category",
+        "PermissionName": "risk_cause_category",
+        "Numbering": "RC"
+    },
+    {
+        "ObjType": 2,
+        "ObjectHeaderTable": "App\\Models\\OPOR",
+        "DocumentName": "Risk Event Category",
+        "PermissionName": "risk_event_category",
+        "Numbering": "RC"
+    },
+    {
+        "ObjType": 3,
+        "ObjectHeaderTable": "App\\Models\\OPOR",
+        "DocumentName": "Risk Impact Category",
+        "PermissionName": "risk_impact_category",
+        "Numbering": "RC"
+    },
+    {
+        "ObjType": 4,
+        "ObjectHeaderTable": "App\\Models\\OPOR",
+        "DocumentName": "Consequence Scale Group",
+        "PermissionName": "consequence_scale_group",
+        "Numbering": "RC"
+    },
+    {
+        "ObjType": 5,
+        "ObjectHeaderTable": "App\\Models\\OPOR",
+        "DocumentName": "KRI Item Category",
+        "PermissionName": "kri_item_category",
+        "Numbering": "RC"
+    },
+    {
+        "ObjType": 6,
+        "ObjectHeaderTable": "App\\Models\\OPOR",
+        "DocumentName": "Risk Level",
+        "PermissionName": "risk_level",
+        "Numbering": "RC"
+    },
+    {
+        "ObjType": 7,
+        "ObjectHeaderTable": "App\\Models\\OPOR",
+        "DocumentName": "Risk Sources",
+        "PermissionName": "risk_sources",
+        "Numbering": "RS"
+    },
+    {
+        "ObjType": 8,
+        "ObjectHeaderTable": "App\\Models\\OPOR",
+        "DocumentName": "Risk Events",
+        "PermissionName": "risk_events",
+        "Numbering": "RE"
+    },
+    {
+        "ObjType": 9,
+        "ObjectHeaderTable": "App\\Models\\OPOR",
+        "DocumentName": "Risk Impacts",
+        "PermissionName": "risk_impacts",
+        "Numbering": "RI"
+    },
+    {
+        "ObjType": 10,
+        "ObjectHeaderTable": "App\\Models\\OPOR",
+        "DocumentName": "Consequence Scale Group",
+        "PermissionName": "consequence_scale_group",
+        "Numbering": "RI"
+    },
+    {
+        "ObjType": 11,
+        "ObjectHeaderTable": "App\\Models\\OPOR",
+        "DocumentName": "Risks",
+        "PermissionName": "risks",
+        "Numbering": "RES"
+    },
+    {
+        "ObjType": 12,
+        "ObjectHeaderTable": "App\\Models\\OPOR",
+        "DocumentName": "Potential Risks",
+        "PermissionName": "potential_risks",
+        "Numbering": "RES"
+    },
+    {
+        "ObjType": 13,
+        "ObjectHeaderTable": "App\\Models\\OPOR",
+        "DocumentName": "Business Units",
+        "PermissionName": "business_units",
+        "Numbering": "BU"
+    },
+    {
+        "ObjType": 15,
+        "ObjectHeaderTable": "App\\Models\\OPOR",
+        "DocumentName": "Control Items Category",
+        "PermissionName": "control_items_category",
+        "Numbering": "DE"
+    },
+    {
+        "ObjType": 16,
+        "ObjectHeaderTable": "App\\Models\\OPOR",
+        "DocumentName": "Control Items",
+        "PermissionName": "control_items",
+        "Numbering": "REC"
+    },
+    {
+        "ObjType": 17,
+        "ObjectHeaderTable": "App\\Models\\OPOR",
+        "DocumentName": "Key Risk Indicators",
+        "PermissionName": "kris",
+        "Numbering": "KRI"
+    },
+    {
+        "ObjType": 18,
+        "ObjectHeaderTable": "App\\Models\\OPOR",
+        "DocumentName": "Actions Category",
+        "PermissionName": "actions_category",
+        "Numbering": "AC"
+    },
+    {
+        "ObjType": 19,
+        "ObjectHeaderTable": "App\\Models\\OPOR",
+        "DocumentName": "Actions Tracking",
+        "PermissionName": "actions_tracking",
+        "Numbering": "AT"
+    },
+    {
+        "ObjType": 20,
+        "ObjectHeaderTable": "App\\Models\\OPOR",
+        "DocumentName": "Key Control Indicators",
+        "PermissionName": "key_control_indicators",
+        "Numbering": "CI"
+    },
+
+    {
+        "ObjType": 21,
+        "ObjectHeaderTable": "App\\Models\\OPOR",
+        "DocumentName": "Compliance Management Category",
+        "PermissionName": "compliance  Management Category",
+        "Numbering": "CMPQC"
+    },
+
+    {
+        "ObjType": 22,
+        "ObjectHeaderTable": "App\\Models\\OPOR",
+        "DocumentName": "Main Risk Events",
+        "PermissionName": "main_risk_events",
+        "Numbering": "MRE"
+    },
+    {
+        "ObjType": 23,
+        "ObjectHeaderTable": "App\\Models\\OPOR",
+        "DocumentName": "Main Risks",
+        "PermissionName": "main_risk",
+        "Numbering": "RESM"
+    },
+    {
+        "ObjType": 26,
+        "ObjectHeaderTable": "App\\Models\\OPOR",
+        "DocumentName": "QMS Procedures",
+        "PermissionName": "procedures",
+        "Numbering": ""
+    },
+    {
+        "ObjType": 27,
+        "ObjectHeaderTable": "App\\Models\\OPOR",
+        "DocumentName": "QMS KPIs",
+        "PermissionName": "kpis",
+        "Numbering": "KPI"
+    },
+    {
+        "ObjType": 28,
+        "ObjectHeaderTable": "App\\Models\\OPOR",
+        "DocumentName": "QMS Attestation",
+        "PermissionName": "attestation",
+        "Numbering": "ATT"
+    },
+    {
+        "ObjType": 29,
+        "ObjectHeaderTable": "App\\Models\\OPOR",
+        "DocumentName": "Functional Areas",
+        "PermissionName": "functional_aread",
+        "Numbering": "FA"
+    },
+    {
+        "ObjType": 30,
+        "ObjectHeaderTable": "App\\Models\\OPOR",
+        "DocumentName": "Fraud Risk Areas",
+        "PermissionName": "fraud_risk_aread",
+        "Numbering": "FRA"
+    },
+    {
+        "ObjType": 31,
+        "ObjectHeaderTable": "App\\Models\\OPOR",
+        "DocumentName": "Assets",
+        "PermissionName": "assets",
+        "Numbering": "AST"
+    },
+    {
+        "ObjType": 32,
+        "ObjectHeaderTable": "App\\Models\\OPOR",
+        "DocumentName": "CRM Risk Events",
+        "PermissionName": "assets",
+        "Numbering": "CRE"
+    },
+    {
+        "ObjType": 33,
+        "ObjectHeaderTable": "App\\Models\\OPOR",
+        "DocumentName": "CRM Risk Events Anaylze",
+        "PermissionName": "assets",
+        "Numbering": "CREA"
+    },
+    {
+        "ObjType": 34,
+        "ObjectHeaderTable": "App\\Models\\OPOR",
+        "DocumentName": "RISK Methods",
+        "PermissionName": "risk_methods",
+        "Numbering": "RM"
+    },
+    {
+        "ObjType": 35,
+        "ObjectHeaderTable": "App\\Models\\OPOR",
+        "DocumentName": "RISK Mitigation",
+        "PermissionName": "risk_mitigations",
+        "Numbering": "MI"
+    },
+    {
+        "ObjType": 36,
+        "ObjectHeaderTable": "App\\Models\\OPOR",
+        "DocumentName": "RISK Impacts",
+        "PermissionName": "risk_impacts",
+        "Numbering": "RIM"
+    },
+    {
+        "ObjType": 37,
+        "ObjectHeaderTable": "App\\Models\\User",
+        "DocumentName": "Authorizations",
+        "PermissionName": "authorizations",
+        "Numbering": "AU"
+    },
+    {
+        "ObjType": 38,
+        "ObjectHeaderTable": "App\\Models\\Audit",
+        "DocumentName": "Audit Schedulers",
+        "PermissionName": "audits_scheduler",
+        "Numbering": "AU"
+    },
+    {
+        "ObjType": 39,
+        "ObjectHeaderTable": "App\\Models\\Incident",
+        "DocumentName": "Incidents",
+        "PermissionName": "incidents_management",
+        "Numbering": "IN"
+    },
+    {
+        "ObjType": 40,
+        "ObjectHeaderTable": "App\\Models\\OKRI",
+        "DocumentName": "Risk Criteris Indicators",
+        "PermissionName": "risk_criteris_indicators",
+        "Numbering": "RCI"
+    },
+    {
+        "ObjType": 41,
+        "ObjectHeaderTable": "App\\Models\\OKRI",
+        "DocumentName": "Procedure Opportunites",
+        "PermissionName": "procedure_opportunites",
+        "Numbering": "PO"
+    },
+    {
+        "ObjType": 42,
+        "ObjectHeaderTable": "App\\Models\\OKRI",
+        "DocumentName": "CRM Activities",
+        "PermissionName": "crm_activities",
+        "Numbering": "PO"
+    },
+    {
+        "ObjType": 106,
+        "ObjectHeaderTable": "App\\Models\\OKRI",
+        "DocumentName": "Years",
+        "PermissionName": "years",
+        "Numbering": "SY"
+    }
+]

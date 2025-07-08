@@ -1,0 +1,159 @@
+{
+    "ResultState": true,
+    "ResultCode": 1200,
+    "ResultDesc": "Operation Was Successful",
+    "ResponseData": [
+        {
+            "count": 1,
+            "RiskName": "Testing ERM",
+            "InherentValue": 9,
+            "ResidualValue": 6,
+            "riskData": [
+                {
+                    "count": 1,
+                    "RiskName": "Inadequate staffing",
+                    "InherentValue": 16,
+                    "ResidualValue": 9,
+                    "TotalQuestions": 0,
+                    "NonCompliance": 9,
+                    "TotalKRIs": 1,
+                    "RedKRIs": 9,
+                    "NotStartedOverdue": 1,
+                    "WIPOverdue": 9
+                }
+            ]
+        },
+        {
+            "count": 2,
+            "RiskName": "Disruption of ICT systems operations",
+            "InherentValue": 16,
+            "ResidualValue": 9,
+            "riskData": [
+                {
+                    "count": 1,
+                    "RiskName": "Ineffecient ICT help desk",
+                    "InherentValue": 16,
+                    "ResidualValue": 12,
+                    "TotalQuestions": 1,
+                    "NonCompliance": 9,
+                    "TotalKRIs": 1,
+                    "RedKRIs": 9,
+                    "NotStartedOverdue": 1,
+                    "WIPOverdue": 9
+                },
+                {
+                    "count": 2,
+                    "RiskName": "System downtime",
+                    "InherentValue": 16,
+                    "ResidualValue": 9,
+                    "TotalQuestions": 1,
+                    "NonCompliance": 9,
+                    "TotalKRIs": 1,
+                    "RedKRIs": 9,
+                    "NotStartedOverdue": 1,
+                    "WIPOverdue": 9
+                }
+            ]
+        },
+        {
+            "count": 4,
+            "RiskName": "non operationalized risk management policy",
+            "InherentValue": 16,
+            "ResidualValue": 6,
+            "riskData": [
+                {
+                    "count": 1,
+                    "RiskName": "Poor risk culture within Smartedge",
+                    "InherentValue": 12,
+                    "ResidualValue": 6,
+                    "TotalQuestions": 1,
+                    "NonCompliance": 9,
+                    "TotalKRIs": 1,
+                    "RedKRIs": 9,
+                    "NotStartedOverdue": 1,
+                    "WIPOverdue": 9
+                },
+                {
+                    "count": 2,
+                    "RiskName": "Inadequate project risk management",
+                    "InherentValue": 20,
+                    "ResidualValue": 12,
+                    "TotalQuestions": 1,
+                    "NonCompliance": 9,
+                    "TotalKRIs": 1,
+                    "RedKRIs": 9,
+                    "NotStartedOverdue": 1,
+                    "WIPOverdue": 9
+                },
+                {
+                    "count": 4,
+                    "RiskName": "Non compliance to risk appetite statement and tolerance levels",
+                    "InherentValue": 9,
+                    "ResidualValue": 6,
+                    "TotalQuestions": 1,
+                    "NonCompliance": 9,
+                    "TotalKRIs": 1,
+                    "RedKRIs": 9,
+                    "NotStartedOverdue": 1,
+                    "WIPOverdue": 9
+                }
+            ]
+        },
+        {
+            "count": 8,
+            "RiskName": "Financial Risk",
+            "InherentValue": 16,
+            "ResidualValue": 9,
+            "riskData": [
+                {
+                    "count": 1,
+                    "RiskName": "Late submission of financial statements to OAG, KRB, NT and Development partners, ",
+                    "InherentValue": 0,
+                    "ResidualValue": 0,
+                    "TotalQuestions": 1,
+                    "NonCompliance": 9,
+                    "TotalKRIs": 1,
+                    "RedKRIs": 9,
+                    "NotStartedOverdue": 1,
+                    "WIPOverdue": 9
+                },
+                {
+                    "count": 2,
+                    "RiskName": "Mismanagement of funds ",
+                    "InherentValue": 9,
+                    "ResidualValue": 4,
+                    "TotalQuestions": 1,
+                    "NonCompliance": 9,
+                    "TotalKRIs": 1,
+                    "RedKRIs": 9,
+                    "NotStartedOverdue": 1,
+                    "WIPOverdue": 9
+                },
+                {
+                    "count": 4,
+                    "RiskName": "Misappropriation of funds and Ineligible Imprest Expenditure",
+                    "InherentValue": 0,
+                    "ResidualValue": 0,
+                    "TotalQuestions": 1,
+                    "NonCompliance": 9,
+                    "TotalKRIs": 1,
+                    "RedKRIs": 9,
+                    "NotStartedOverdue": 1,
+                    "WIPOverdue": 9
+                },
+                {
+                    "count": 8,
+                    "RiskName": "Misstatement of revenue in books of account",
+                    "InherentValue": 0,
+                    "ResidualValue": 0,
+                    "TotalQuestions": 1,
+                    "NonCompliance": 9,
+                    "TotalKRIs": 1,
+                    "RedKRIs": 9,
+                    "NotStartedOverdue": 1,
+                    "WIPOverdue": 9
+                }
+            ]
+        }
+    ]
+}
